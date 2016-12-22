@@ -4,6 +4,8 @@
 public class LSStackItem {
     String value;
 
+    LSStackItem() {}
+
     LSStackItem(String s){
         value = s;
     }

@@ -25,39 +25,79 @@ public class JPSD {
     }
 
     public static void main(String[] args){
-        System.out.println(fibonacci());
-        strip();
+        String input = readLine("What would you like to do?" +
+                "\n Fibonacci: Input 1" +
+                "\n Pyramid: Input 2" +
+                "\n Sum: Input 3" +
+                "\n Even/Odd checker: Input 4 " +
+                "\n Number line: Input 5");
+        int choice = Integer.parseInt(input);
+        if (choice == 1){fibonacci();}
+        if (choice == 2){pyramid();}
+        if (choice == 3){sum();}
+        if (choice == 4){numberType();}
+        if (choice == 5){numberLine();}
+        String[] a = {};
+        main(a);
     }
 
-    public static int fibonacci(){
+    static void fibonacci(){
         String input = readLine("Which Fibonacci number do you want?");
         int n = Integer.parseInt(input);
         int fibPrev = 0;
         int fibNow = 1;
-        int holder = 0;
+        int holder;
         for(int i = 1; i < n; i++){
             holder = fibNow;
             fibNow = fibPrev + fibNow;
             fibPrev = holder;
         }
-        return fibNow;
+        System.out.println(fibNow);
     }
 
-    public static void strip(){
-        String input = readLine("Give me a string to convert");
-        String gangGang = "";
-        int length = input.length();
-        for(int i = 0; i < length; i++){
-            char holder = input.charAt(i);
-            gangGang = gangGang + convert(holder);
+    static void pyramid(){
+        String input = readLine("How tall would you like your pyramid?");
+        int height = Integer.parseInt(input);
+        for (int i = 0; i < height; i++){
+            for (int a = 0; a < i; a++){
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+        for (int i = height; i > 0; i--){
+            for (int a = 0; a < i; a++){
+                System.out.print("*");
+            }
+            System.out.println("");
         }
     }
 
-    public static String convert(char c){
-        String confirmNum = "";
-        for(int i = 0; i < 10; i++){
-            if(c == i) {return confirmNum;}
-        }
-        return "c";
+    static void sum(){
+        String input1 = readLine("What is the first number you would like to add?");
+        String input2 = readLine("What is the second number you would like to add?");
+        int num1 = Integer.parseInt(input1);
+        int num2 = Integer.parseInt(input2);
+        System.out.println(num1 + num2);
     }
+
+    static void numberType(){
+        String input = readLine("What number would you like to check?");
+        int num = Integer.parseInt(input);
+        if (num % 2 == 0){
+            System.out.println(num + " is an even number");
+        }
+        else {
+            System.out.println(num + " is an odd number");
+        }
+        System.out.println(num);
+    }
+
+    static void numberLine(){
+        String input = readLine("How many numbers do you want in your number line?");
+        int n = Integer.parseInt(input);
+        for (int i = 0; i < n; i++) {
+            System.out.print((i + 1) + ",");
+        }
+    }
+
 }
