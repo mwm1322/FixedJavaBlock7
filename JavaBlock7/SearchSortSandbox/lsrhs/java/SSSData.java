@@ -16,6 +16,10 @@ public class SSSData {
 		randomize();
 	}
 
+	public int getLength(){
+		return data.length;
+	}
+
 	public void resetHitCount() {
 		hits = 0;
 	}

@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArraySandbox/ArraySandbox.iml" filepath="$PROJECT_DIR$/ArraySandbox/ArraySandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BasicMaze/BasicMaze.iml" filepath="$PROJECT_DIR$/BasicMaze/BasicMaze.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dice/Dice.iml" filepath="$PROJECT_DIR$/Dice/Dice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dice/Dice1.iml" filepath="$PROJECT_DIR$/Dice/Dice1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dice/Dice2.iml" filepath="$PROJECT_DIR$/Dice/Dice2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eight/Eight.iml" filepath="$PROJECT_DIR$/Eight/Eight.iml" />
       <module fileurl="file://$PROJECT_DIR$/Guesser/Guesser.iml" filepath="$PROJECT_DIR$/Guesser/Guesser.iml" />
       <module fileurl="file://$PROJECT_DIR$/JPSD/JPSD.iml" filepath="$PROJECT_DIR$/JPSD/JPSD.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBlock7.iml" filepath="$PROJECT_DIR$/JavaBlock7.iml" />
@@ -13,7 +15,11 @@
       <module fileurl="file://$PROJECT_DIR$/Reverser/Reverser.iml" filepath="$PROJECT_DIR$/Reverser/Reverser.iml" />
       <module fileurl="file://$PROJECT_DIR$/RochambeauBaseline/RochambeauBaseline.iml" filepath="$PROJECT_DIR$/RochambeauBaseline/RochambeauBaseline.iml" />
       <module fileurl="file://$PROJECT_DIR$/RochambeauBaseline/RochambeauBaseline1.iml" filepath="$PROJECT_DIR$/RochambeauBaseline/RochambeauBaseline1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SearchSortSandbox/SearchSortSandbox.iml" filepath="$PROJECT_DIR$/SearchSortSandbox/SearchSortSandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SearchSortSandbox/SearchSortSandbox1.iml" filepath="$PROJECT_DIR$/SearchSortSandbox/SearchSortSandbox1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleSort/SimpleSort.iml" filepath="$PROJECT_DIR$/SimpleSort/SimpleSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadSandbox/ThreadSandbox.iml" filepath="$PROJECT_DIR$/ThreadSandbox/ThreadSandbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wumpus/Wumpus.iml" filepath="$PROJECT_DIR$/Wumpus/Wumpus.iml" />
     </modules>
   </component>
